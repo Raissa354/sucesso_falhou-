@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg, #ffb6d5, #f48fbd, #e875aa);
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.card {
+    background: #ffe4ef;
+    padding: 40px 32px;
+    border-radius: 25px;
+    border: 2px solid #ff9fc5;
+    box-shadow: 0 12px 35px #bd4d8040;
+}
+
+.logo {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #c0447d;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #bd6290;
+    margin-bottom: 28px;
+    line-height: 1.5;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #c0447d;
+    margin: 17px 0 8px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #f5a4c7;
+    border-radius: 12px;
+    background: #fff5fa;
+    color: #a83d70;
+    font-size: 15px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #d995b5;
+}
+
+input:focus {
+    border-color: #db5795;
+    box-shadow: 0 0 10px #e77eaf70;
+}
+
+button, .link {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #e875aa;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .link:hover {
+    background: #c0447d;
+    transform: translateY(-2px);
+}
+
+.resultado {
+    text-align: center;
+}
+
+.simbolo {
+    font-size: 65px;
+    margin-bottom: 18px;
+}
+
+.resultado p {
+    color: #bd6290;
+    margin: 18px 0;
+    line-height: 1.6;
+}
+
+.sucesso h1 {
+    color: #d34c91;
+}
+
+.falhou h1 {
+    color: #c0447d;
+}
